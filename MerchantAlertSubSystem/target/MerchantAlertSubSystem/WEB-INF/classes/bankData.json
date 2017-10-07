@@ -1,0 +1,35 @@
+{
+	"kotakUPI": {
+		"amount": "amount",
+		"txnReferenceNum": "transactionreferencenumber",
+		"mrechantIdentifier": "payeevpa",
+		"custIdentifier": "payervpa",
+		"status": "status",
+		"remarks": "remarks",
+		"bankName": "Kotak",
+		"issuerName": "KotakUPI",
+		"bankInput": "bankInput"
+	},
+	"atomBQR": {
+		"amount": "AMT",
+		"txnReferenceNum": "AtomTxnId",
+		"mrechantIdentifier": "MerchantID",
+		"custIdentifier": "CardNumber",
+		"status": "VERIFIED",
+		"remarks": "Discriminator",
+		"bankName": "ATOM PG",
+		"issuerName": "AtomBQR",
+		"bankInput": "bankInput"
+	},
+	"kotakBQR":{
+		"amount": "txn_amount",
+		"txnReferenceNum": "ref_no",
+		"mrechantIdentifier": ["mpan","vpan","rpan"],
+		"custIdentifier": "custIdentifier",
+		"status": "status",
+		"remarks": "consumer_pan",
+		"bankName": "Kotak",
+		"issuerName": "KotakBQR",
+		"bankInput": "bankInput"
+	}
+}
